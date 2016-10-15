@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: Consolas, Arial;
+  color: #333;
+  background-color: #FAFAFA;
+}
+
+h1 {
+  text-align: center;
+  font-size: 46px;
+}
+
+ul {
+  font-size: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+input {
+  font-size: 2em;
+}
+
+button {
+  font-size: 2em;
+  border-radius: 10px;
+  background: #ccc;
+}
+
+fieldset {
+  text-align: center;
+  margin: 2em 0;
+  padding-top: 2em;
+}
+
+fieldset span {
+  color: red;
+}
