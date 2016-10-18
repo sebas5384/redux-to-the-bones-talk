@@ -1,7 +1,7 @@
 {
-  "name": "webpackbin-project",
+  "name": "redux-to-the-bones-talk",
   "version": "1.0.0",
-  "description": "Project boilerplate",
+  "description": "Code from the talk: Redux to the bones",
   "scripts": {
     "start": "webpack-dev-server --content-base build/"
   },
@@ -20,6 +20,6 @@
     "webpack": "1.13.2",
     "webpack-dev-server": "1.16.1"
   },
-  "author": "WebpackBin",
-  "license": "ISC"
+  "author": "Sebastian Ferrari <sebas5384@gmail.com>",
+  "license": "GPL-3.0"
 }

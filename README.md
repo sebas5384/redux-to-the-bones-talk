@@ -1,4 +1,4 @@
-# WebpackBin project
+# Talk: Redux to the bones
 
 ## Start
 
