@@ -1,8 +1,8 @@
 require('./styles.css')
 
 // Intro.
-// import './eventNewStateExample'
-import './main.reduxExample'
+import './eventNewStateExample'
+// import './main.reduxExample'
 
 // Redux DIY.
 // import './main.simple'

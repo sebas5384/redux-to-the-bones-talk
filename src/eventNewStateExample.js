@@ -1,3 +1,4 @@
+// @TODO Uncomment this to show more real example.
 // const currentState = { counter: 0 }
 // const increment = (state, payload) => {
 //   return { counter: state.counter + payload }
