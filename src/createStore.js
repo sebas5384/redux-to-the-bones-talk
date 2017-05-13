@@ -1,6 +1,6 @@
 function createStore(reducer, initialState = {}) {
 
-  let currentState = initialState
+  let currentState = { ...initialState }
   let currentListeners = []
 
   const dispatch = action => {
