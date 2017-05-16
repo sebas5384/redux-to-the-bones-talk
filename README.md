@@ -1,6 +1,7 @@
 # Talk: Redux to the bones
 
-[Link to the Slides (pt-br)](https://docs.google.com/a/taller.net.br/presentation/d/1e_JWSJiN9GLG2zNliJnCwxB0BHaY-ORa1PJI3EHS8dc/edit?usp=sharing)
+Floripa JS 2016 (Florinópolis, SC, Brazil) | [Slides (pt-br)](https://docs.google.com/a/taller.net.br/presentation/d/1e_JWSJiN9GLG2zNliJnCwxB0BHaY-ORa1PJI3EHS8dc/edit?usp=sharing)
+Code for Tuba 2017 (Tubarão, SC, Brazil) | [Slides (pt-br)](https://docs.google.com/a/taller.net.br/presentation/d/1v59UxS5C2o03mu6PW-oNe8_9gGJMDHlHhVO7KhhW83U/edit?usp=sharing)
 
 ## Start
 
@@ -8,4 +9,4 @@
 
 `npm start`
 
-Go to `localhost:8080`
+Go to [http://localhost:8080](http://localhost:8080)
