@@ -11,6 +11,8 @@ const increment = (state, payload) => state + payload
 // Reducer.
 const newState = increment(currentState, 1)
 
+document.getElementById('counter').innerHTML = newState
+
 console.log('Previous State', currentState)
 
 console.log('State changed? ', currentState !== newState)
