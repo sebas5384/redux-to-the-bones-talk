@@ -19,9 +19,9 @@ const reducer = (state, action) => {
 
 const store = createStore(reducer, initialState)
 
+document.getElementById('increment')
+  .addEventListener('click', event => store.dispatch(incrementAction))
+
 store.subscribe(() => {
   document.querySelector('#counter').innerHTML = store.getState().counter
 })
-
-document.getElementById('increment')
-  .addEventListener('click', event => store.dispatch(incrementAction))
