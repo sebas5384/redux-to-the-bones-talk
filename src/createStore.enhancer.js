@@ -1,6 +1,6 @@
 function createStore(reducer, initialState = {}, enhancer) {
 
-  let currentState = initialState
+  let currentState = { ...initialState }
   let currentListeners = []
 
   if (typeof enhancer === 'function') {

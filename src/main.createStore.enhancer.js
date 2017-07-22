@@ -1,6 +1,6 @@
 import createStore from './createStore.enhancer'
 
-const initialState = { counter: 0, myName: 'Sebas' }
+const initialState = { counter: 0, myName: 'Sebastião' }
 
 const INCREMENT = 'INCREMENT'
 const CHANGE_MY_NAME = 'CHANGE_MY_NAME'
