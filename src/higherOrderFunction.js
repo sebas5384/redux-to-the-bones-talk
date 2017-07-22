@@ -1,12 +1,13 @@
-const sum = (numberA, numberB) => numberA + numberB
+const sum = (numA, numB) => numA + numB
 
-console.log('Simple Sum', sum(2, 4))
+console.log('SOMA SIMPLES', sum(1, 3))
 
-const double = (fn, ...args) => {
-
-  const result = fn(...args)
-
-  return fn(result, result)
+const double = fn => {
+  return (...args) => {
+    return fn(...args) + fn(...args)
+  }
 }
 
-console.log('Double Sum', double(sum, 2, 4))
+const doubleSum = double(sum)
+
+console.log('SOMA DOBRADA', doubleSum(1, 3))
