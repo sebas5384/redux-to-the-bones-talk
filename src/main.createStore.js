@@ -30,7 +30,7 @@ const store = createStore(reducer, initialState)
 
 store.subscribe(() => {
   const state = store.getState()
-  document.querySelector('#counter').innerHTML = state.counter
+  document.getElementById('counter').innerHTML = state.counter
   document.getElementById('myname').innerHTML = state.myName
 })
 
